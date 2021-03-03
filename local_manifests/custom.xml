@@ -13,5 +13,11 @@
 
   <!-- Aurora Droid, Store and Services from pinembour repo-->
   <project path="prebuilts/aurorastore" name="ros-aurora" remote="aurorastore" clone-depth="1" />
+  
+  <!-- ExactCalculator from GrapheneOS -->
+  <project path="external/exactcalculator" name="platform_packages_apps_ExactCalculator" remote="grapheneos" />
+  
+  <!-- PDFViewer from GrapheneOS -->
+  <project path="external/pdfviewer" name="platform_external_PdfViewer" remote="grapheneos" />
 
 </manifest>
