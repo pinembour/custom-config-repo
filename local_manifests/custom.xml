@@ -2,11 +2,16 @@
 <manifest>
   <remote name="personal-remote" fetch="https://github.com/pinembour/" revision="11.0" />
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="master" />
+  <remote name="aurorastore" fetch="https://github.com/pinembour/" revision="master" />
+  <remote name="grapheneos" fetch="https://github.com/grapheneos/" revision="11" />
 
   <!-- this custom repo - do not change path -->
   <project path="vendor/custom" name="custom-config-repo" remote="personal-remote" />
 
   <!-- seedvault pinned to a specific revision -->
   <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="ecdc0c27165b97e42ce72cf859edbf62c5b045c8" />
+
+  <!-- Aurora Droid, Store and Services from pinembour repo-->
+  <project path="prebuilts/aurorastore" name="ros-aurora" remote="aurorastore" clone-depth="1" />
 
 </manifest>
