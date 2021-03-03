@@ -8,3 +8,9 @@ PRODUCT_PACKAGES += \
 # Fix for Google Camera
 PRODUCT_COPY_FILES += \
 	vendor/custom/prebuilt/google_experience.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/google_experience.xml
+
+# Aurora
+PRODUCT_PACKAGES += \
+    AuroraStore \
+    AuroraServices \
+    AuroraDroid
