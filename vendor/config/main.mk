@@ -14,3 +14,11 @@ PRODUCT_PACKAGES += \
     AuroraStore \
     AuroraServices \
     AuroraDroid
+
+# ExactCalculator
+PRODUCT_PACKAGES += \
+    ExactCalculator
+
+# PdfViewer
+PRODUCT_PACKAGES += \
+    PdfViewer
