@@ -1,4 +1,4 @@
-This is an example custom config repo that does the following:
+This is a custom config repo that does the following:
 * adds Seedvault
   * remote and project added in `local_manifests/custom.xml`
   * product_packages added in `vendor/config/main.mk`
