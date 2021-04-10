@@ -17,10 +17,10 @@ patch -p1 --no-backup-if-mismatch < "${community_patches_dir}/00007-set-seedvaul
 patch -p1 --no-backup-if-mismatch < "${community_patches_dir}/00006-increase-default-maximum-password-length.patch"
 patch -p1 --no-backup-if-mismatch < "${community_patches_dir}/00002-round-icon.patch"
 
-community_patches_dir="${ROOT_DIR}/community_patches/custom"
-rm -rf "${community_patches_dir}"
-git clone https://github.com/pinembour/custom-config-repo.git "$community_patches_dir"
-patch -p1 --no-backup-if-mismatch < "${community_patches_dir}/patches/00010-backup-any-application.patch"
+#community_patches_dir="${ROOT_DIR}/community_patches/custom"
+#rm -rf "${community_patches_dir}"
+#git clone https://github.com/pinembour/custom-config-repo.git "$community_patches_dir"
+#patch -p1 --no-backup-if-mismatch < "${community_patches_dir}/patches/00010-backup-any-application.patch"
 
 ## apply custom hosts file
 #custom_hosts_file="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
